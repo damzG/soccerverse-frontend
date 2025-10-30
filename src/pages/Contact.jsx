@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-const api = import.meta.env.VITE_API_URL;
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -10,37 +9,44 @@ export default function Contact() {
 
   const [status, setStatus] = useState("");
 
+  // Get API URL from environment variable
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-const handleSubmit = async (e) => {
-  e.preventDefault();
-  setStatus("Sending...");
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
 
-  try {
-    const response = await fetch(`${api}/api/contact`, {
-      // ⚠️ Change to your backend URL if deployed
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
+    console.log("🔍 Submitting to:", `${API_URL}/api/contact`);
 
-    const data = await response.json();
+    try {
+      const response = await fetch(`${API_URL}/api/contact`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-    if (data.success) {
-      setStatus("✅ Message sent successfully!");
-      setFormData({ name: "", email: "", message: "" });
-    } else {
-      setStatus("❌ Failed to send message. Try again.");
+      console.log("📡 Response status:", response.status);
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log("✅ Success:", data);
+        setStatus("✅ Message sent successfully!");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        const errorData = await response.json();
+        console.error("❌ Error:", errorData);
+        setStatus("❌ Failed to send message. Try again.");
+      }
+    } catch (error) {
+      console.error("💥 Network error:", error);
+      setStatus("❌ Error connecting to server.");
     }
-  } catch (error) {
-    console.error("Error submitting form:", error);
-    setStatus("❌ Error connecting to server.");
-  }
-};
-
+  };
 
   return (
     <div className="bg-[#184171] min-h-screen text-white flex justify-center items-center p-6">
@@ -50,8 +56,12 @@ const handleSubmit = async (e) => {
           Share your thoughts, stories, or feedback about the FIFA World Cup 2026.
         </p>
 
+        {/* Debug Info - Remove after fixing */}
+        <div className="mb-4 p-2 bg-black/30 rounded text-xs">
+          <p>API URL: {API_URL || 'NOT SET'}</p>
+        </div>
+
         <form onSubmit={handleSubmit} className="space-y-5">
-          {/* Name */}
           <div>
             <label className="block mb-2 text-sm font-medium">Name</label>
             <input
@@ -65,7 +75,6 @@ const handleSubmit = async (e) => {
             />
           </div>
 
-          {/* Email */}
           <div>
             <label className="block mb-2 text-sm font-medium">Email</label>
             <input
@@ -79,7 +88,6 @@ const handleSubmit = async (e) => {
             />
           </div>
 
-          {/* Message */}
           <div>
             <label className="block mb-2 text-sm font-medium">Message</label>
             <textarea
@@ -93,7 +101,6 @@ const handleSubmit = async (e) => {
             ></textarea>
           </div>
 
-          {/* Submit Button */}
           <button
             type="submit"
             className="w-full py-3 bg-yellow-400 text-black font-semibold rounded-md hover:bg-yellow-500 transition"
@@ -102,9 +109,8 @@ const handleSubmit = async (e) => {
           </button>
         </form>
 
-        {/* Status message */}
         {status && (
-          <p className="mt-4 text-center text-green-400 font-medium">{status}</p>
+          <p className="mt-4 text-center font-medium">{status}</p>
         )}
       </div>
     </div>
