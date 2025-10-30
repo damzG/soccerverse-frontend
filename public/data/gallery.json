@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "stage": "Matchday 1",
+    "type": "image",
+    "title": "Opening Ceremony",
+    "src": "src/assets/WorldCupBanner.svg"
+  },
+  {
+    "id": 2,
+    "stage": "Matchday 1",
+    "type": "video",
+    "title": "USA vs Canada Highlights",
+    "src": "https://youtube.com/embed/fpXxYyWSNDY?si=KNLgJBQrqBQ6WlP3"
+    
+  },
+
+  {
+    "id": 3,
+    "stage": "Matchday 2",
+    "type": "video",
+    "title": "Brazil vs Saudi-Arabia Highlights",
+    "src": "https://youtube.com/embed/RgR4m0PfGww?si=cUjDNnRae99i5Ug_"
+  },
+  {
+    "id": 4,
+    "stage": "Quarter-finals",
+    "type": "image",
+    "title": "Quarter-final Thrills",
+    "src": "src/assets/WorldCupBanner.svg"
+  },
+
+  {
+    "id": 5,
+    "stage": "Semi-finals",
+    "type": "image",
+    "title": "Semi-final Thrills",
+    "src": "src/assets/WorldCupBanner.svg"
+  },
+
+  {
+    "id": 6,
+    "stage": "Finals",
+    "type": "image",
+    "title": "Final Thrills",
+    "src": "src/assets/WorldCupBanner.svg"
+  }
+]

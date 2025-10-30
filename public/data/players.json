@@ -1,0 +1,5 @@
+[
+  {"id":1,"teamId":1,"name":"Player One","position":"FW","goals":5},
+  {"id":2,"teamId":1,"name":"Player Two","position":"MF","goals":1},
+  {"id":3,"teamId":2,"name":"Player A","position":"GK","goals":0}
+]

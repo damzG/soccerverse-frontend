@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Alisson Becker", "country": "Brazil", "flag": "/CapeVerdeFlag 1.svg", "cleanSheets": 60 },
+  { "id": 2, "name": "Manuel Neuer", "country": "Germany", "flag": "/CapeVerdeFlag 1.svg", "cleanSheets": 58 },
+  { "id": 3, "name": "Hugo Lloris", "country": "France", "flag": "/CapeVerdeFlag 1.svg", "cleanSheets": 55 }
+]

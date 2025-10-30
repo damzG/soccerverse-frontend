@@ -1,0 +1,61 @@
+[
+  {"id":1,"name":"Mexico","group":"A","confederation":"CONCACAF","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":2,"name":"Argentina","group":"A","confederation":"CONMEBOL","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":3,"name":"Australia","group":"A","confederation":"AFC","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":4,"name":"TBD Country A1","group":"A","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":5,"name":"Canada","group":"B","confederation":"CONCACAF","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":6,"name":"Brazil","group":"B","confederation":"CONMEBOL","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":7,"name":"Algeria","group":"B","confederation":"CAF","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":8,"name":"TBD Country B1","group":"B","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":9,"name":"Japan","group":"C","confederation":"AFC","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":10,"name":"Colombia","group":"C","confederation":"CONMEBOL","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":11,"name":"Cabo Verde","group":"C","confederation":"CAF","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":12,"name":"TBD Country C1","group":"C","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":13,"name":"USA","group":"D","confederation":"CONCACAF","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":14,"name":"Uruguay","group":"D","confederation":"CONMEBOL","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":15,"name":"IR Iran","group":"D","confederation":"AFC","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":16,"name":"TBD Country D1","group":"D","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":17,"name":"England","group":"E","confederation":"UEFA","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":18,"name":"Ecuador","group":"E","confederation":"CONMEBOL","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":19,"name":"Saudi Arabia","group":"E","confederation":"AFC","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":20,"name":"TBD Country E1","group":"E","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":21,"name":"Morocco","group":"F","confederation":"CAF","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":22,"name":"Senegal","group":"F","confederation":"CAF","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":23,"name":"Ghana","group":"F","confederation":"CAF","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":24,"name":"South Africa","group":"F","confederation":"CAF","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":25,"name":"Egypt","group":"G","confederation":"CAF","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":26,"name":"New Zealand","group":"G","confederation":"OFC","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":27,"name":"Paraguay","group":"G","confederation":"CONMEBOL","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":28,"name":"Côte d'Ivoire","group":"G","confederation":"CAF","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":29,"name":"Korea Republic","group":"H","confederation":"AFC","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":30,"name":"Jordan","group":"H","confederation":"AFC","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":31,"name":"Qatar","group":"H","confederation":"AFC","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":32,"name":"Uzbekistan","group":"H","confederation":"AFC","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":33,"name":"TBD Country I1","group":"I","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":34,"name":"TBD Country I2","group":"I","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":35,"name":"TBD Country I3","group":"I","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":36,"name":"TBD Country I4","group":"I","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":37,"name":"TBD Country J1","group":"J","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":38,"name":"TBD Country J2","group":"J","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":39,"name":"TBD Country J3","group":"J","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":40,"name":"TBD Country J4","group":"J","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":41,"name":"TBD Country K1","group":"K","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":42,"name":"TBD Country K2","group":"K","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":43,"name":"TBD Country K3","group":"K","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":44,"name":"TBD Country K4","group":"K","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+
+  {"id":45,"name":"TBD Country L1","group":"L","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":46,"name":"TBD Country L2","group":"L","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":47,"name":"TBD Country L3","group":"L","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"},
+  {"id":48,"name":"TBD Country L4","group":"L","confederation":"TBD","flag":"/CapeVerdeFlag 1.svg"}
+]

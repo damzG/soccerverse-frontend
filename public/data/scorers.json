@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Kylian Mbappé", "country": "France", "goals": 54, "flag": "/CapeVerdeFlag 1.svg" },
+  { "id": 2, "name": "Harry Kane", "country": "England", "goals": 50, "flag": "/CapeVerdeFlag 1.svg" },
+  { "id": 3, "name": "Lautaro Martínez", "country": "Argentina", "goals": 48, "flag": "/CapeVerdeFlag 1.svg" }
+]
