@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useLocation } from "react-router-dom";
+import Logo from "../assets/WorldCupLogoNav.svg";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -42,7 +43,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Link to="/">
-            <img src="src/assets/WorldCupLogoNav.svg" alt="Logo" className="w-8 h-8" />
+            <img src={Logo} alt="Logo" className="w-8 h-8" />
           </Link>
           <Link to="/" className="text-xl font-bold">
             SoccerVerse
