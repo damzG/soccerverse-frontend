@@ -4,7 +4,7 @@
     "stage": "Matchday 1",
     "type": "image",
     "title": "Opening Ceremony",
-    "src": "src/assets/WorldCupBanner.svg"
+    "src": "/WorldCupBanner.svg"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     "stage": "Quarter-finals",
     "type": "image",
     "title": "Quarter-final Thrills",
-    "src": "src/assets/WorldCupBanner.svg"
+    "src": "/WorldCupBanner.svg"
   },
 
   {
@@ -35,7 +35,7 @@
     "stage": "Semi-finals",
     "type": "image",
     "title": "Semi-final Thrills",
-    "src": "src/assets/WorldCupBanner.svg"
+    "src": "/WorldCupBanner.svg"
   },
 
   {
@@ -43,6 +43,6 @@
     "stage": "Finals",
     "type": "image",
     "title": "Final Thrills",
-    "src": "src/assets/WorldCupBanner.svg"
+    "src": "/WorldCupBanner.svg"
   }
 ]
