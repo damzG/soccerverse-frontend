@@ -57,9 +57,9 @@ export default function Contact() {
         </p>
 
         {/* Debug Info - Remove after fixing */}
-        <div className="mb-4 p-2 bg-black/30 rounded text-xs">
+        {/* <div className="mb-4 p-2 bg-black/30 rounded text-xs">
           <p>API URL: {API_URL || 'NOT SET'}</p>
-        </div>
+        </div> */}
 
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
