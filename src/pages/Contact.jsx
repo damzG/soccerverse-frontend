@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+const api = import.meta.env.VITE_API_URL;
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -19,7 +20,7 @@ const handleSubmit = async (e) => {
   setStatus("Sending...");
 
   try {
-    const response = await fetch("http://localhost:5000/api/contact", {
+    const response = await fetch(`${api}/api/contact`, {
       // ⚠️ Change to your backend URL if deployed
       method: "POST",
       headers: { "Content-Type": "application/json" },
