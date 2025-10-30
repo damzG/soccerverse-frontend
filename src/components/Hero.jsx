@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import video from "../../public/WorldCupLogoNav.svg";
+import video from "../assets/FifaWorldCupBanner.mp4";
 
 export default function Hero() {
   const [countdown, setCountdown] = useState({
