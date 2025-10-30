@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import video from "../../public/WorldCupLogoNav.svg";
 
 export default function Hero() {
   const [countdown, setCountdown] = useState({
@@ -46,7 +47,7 @@ export default function Hero() {
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="src/assets/FifaWorldCupBanner.mp4"
+        src={video}
         autoPlay
         loop
         muted
