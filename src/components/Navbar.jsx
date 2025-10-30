@@ -42,7 +42,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Link to="/">
-            <img src="src/assets/WorldCupLogoNav.svg" alt="Logo" className="w-8 h-8" />
+            <img src="src/assets/WorldCupLogonav.svg" alt="Logo" className="w-8 h-8" />
           </Link>
           <Link to="/" className="text-xl font-bold">
             SoccerVerse
